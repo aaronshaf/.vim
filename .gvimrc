@@ -1,7 +1,7 @@
 " font
 set linespace=3
-colorscheme monokai
-set guifont=Source\ Code\ Pro\ for\ Powerline:h16
+colorscheme base16-monokai
+set guifont=Source\ Code\ Pro:h16
 
 " airline options
 let g:airline_powerline_fonts = 1
