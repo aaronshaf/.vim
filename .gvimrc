@@ -1,6 +1,6 @@
 " font
 set linespace=3
-colorscheme base16-monokai
+colorscheme monokai
 set guifont=Source\ Code\ Pro\ for\ Powerline:h16
 
 " airline options
