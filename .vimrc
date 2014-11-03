@@ -20,3 +20,4 @@ autocmd vimenter * if !argc() | NERDTree | endif
 " Toggle NERDTree with leader-t
 map <leader>t :NERDTreeToggle<cr>
 
+let g:airline_powerline_fonts = 1
