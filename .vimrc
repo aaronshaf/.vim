@@ -12,7 +12,13 @@ set wildmenu
 set expandtab
 set smarttab
 
+colorscheme base16-monokai
+
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|tmp)$'
+
+" strip trailing spaces on save
+" http://unix.stackexchange.com/a/75431
+autocmd BufWritePre * :%s/\s\+$//e
 
 " Open a NERDTree automatically when vim starts up if no files were specified?
 autocmd vimenter * if !argc() | NERDTree | endif
